@@ -1,0 +1,37 @@
+const Discord = require('discord.js');
+const config = require('config.js')
+
+
+module.exports = {
+  name: "", //nombre
+  alias: [], //alias,
+
+  execute(client, message, args) {
+
+  }
+
+}
+
+
+
+
+
+
+const { SlashCommandBuilder } = require('@discordjs/builders')
+const Discord = require('discord.js')
+const { color, check, error } = require('../config')
+
+module.exports = {
+    data: new SlashCommandBuilder()
+    .setName('')
+    .setDescription('')
+    .addStringOption(option => option.setName('').setDescription('').setRequired(true)),
+
+    async run(client, interaction) {
+        
+    }
+}
+
+
+
+
